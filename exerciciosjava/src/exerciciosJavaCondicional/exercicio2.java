@@ -13,24 +13,24 @@ public class exercicio2 {
 		
 		System.out.print("Digite o primeiro valor: ");
 		varA = tec.nextInt();
-		System.out.print("Digite o primeiro valor: ");
+		System.out.print("Digite o segundo valor: ");
 		varB = tec.nextInt();
-		System.out.print("Digite o primeiro valor: ");
+		System.out.print("Digite o terceiro valor: ");
 		varC = tec.nextInt();
 		
 		if (varA < varB && varB < varC) {
 			System.out.println(varA+"\n"+varB+"\n"+varC);
 		}
-		if (varB < varA && varA < varC) {
+		else if (varB < varA && varA < varC) {
 			System.out.println(varB+"\n"+varA+"\n"+varC);
 		}
-		if (varC < varB && varB < varA) {
+		else if (varC < varB && varB < varA) {
 			System.out.println(varC+"\n"+varB+"\n"+varA);
 		}
-		if (varA < varC && varC < varB) {
+		else if (varA < varC && varC < varB) {
 			System.out.println(varA+"\n"+varC+"\n"+varB);
 		}
-		if (varC < varA && varA < varB) {
+		else if (varC < varA && varA < varB) {
 			System.out.println(varC+"\n"+varA+"\n"+varB);
 		}
 		if (varB < varC && varC < varA) {
