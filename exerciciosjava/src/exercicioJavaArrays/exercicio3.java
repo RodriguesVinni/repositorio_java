@@ -23,6 +23,7 @@ public class exercicio3 {
 			 
 			}
 		}
+		System.out.println("\n");
 		for(int linha=0 ; linha<3 ; linha++) 
 		{
 			for(int coluna=0 ; coluna<3 ; coluna++) 
